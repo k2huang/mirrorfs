@@ -1,6 +1,6 @@
 # mirrorfs
 
-基于[https://github.com/bazil/fuse](https://github.com/bazil/fuse)实现的一个 mirrorfs(镜像文件系统)。 <br/>
+基于[https://github.com/bazil/fuse](https://github.com/bazil/fuse)实现的一个 用户态文件系统 - mirrorfs(镜像文件系统)。 <br/>
 执行 **./progname -mount path1 -mirror path2** 之后：<br>
 就将我们的文件系统mirrorfs挂载到了path1上，之后对path1目录的操作实际上都是在操作path2目录，也就是将对path1的操作
 "镜像"到了path2。<br>
